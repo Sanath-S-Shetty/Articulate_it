@@ -47,6 +47,9 @@ dependencies {
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
    
     implementation("androidx.multidex:multidex:2.0.1")
+    implementation("com.google.ai.client.generativeai:generativeai:0.5.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
    
  
 }
