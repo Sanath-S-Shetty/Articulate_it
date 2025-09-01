@@ -1,4 +1,3 @@
-import 'package:articulate_it/secrets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -85,7 +84,7 @@ class _HomeScreenState extends State<HomeScreen> {
             TextField(
               controller: _apiKeyController,
               decoration: const InputDecoration(
-                labelText: apiKey,
+                labelText: "Gemini API Key",
                 border: OutlineInputBorder(),
               ),
               obscureText: true,
